@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home - My Portfolio</title>
+    <link rel="icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
+</head>
+<body>
+    <h1>Welcome to My Portfolio</h1>
+    <a href="{{ url_for('about_me') }}">About Me</a>
+    <a href="{{ url_for('gallery') }}">Gallery</a>
+    <a href="{{ url_for('contact') }}">Contact</a>
+</body>
+</html>
